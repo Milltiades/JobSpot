@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: rgb(241 245 249)
+}
+
+.material-symbols-outlined.menu {
+  color: rgb(0, 0, 0);
+  scale: 1.5;
+
+}
+
+.material-symbols-outlined.close {
+  color: rgb(0, 0, 0);
+  scale: 1.5;
+
+}
+
+.bg-job-img {
+  position: relative;
+  background-image: url('/assets/img/job.png');
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.bg-add-job{
+  position: relative;
+  background-image: url('/assets/img/jj.jpg');
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media screen and (max-width: 450px) {
+    display: none;
+  }
+}
+
+.header {
+  top: 66.5px;
+}
+
+.jobs {
+  top: 66.5px;
+}
+
+.location {
+  scale: 1;
+}
+
+.money {
+  scale: 1;
+}
+
+li {
+  cursor: pointer;
+}
+
+.job-content{
+  height: 74vh;
+  padding: 150px 20px;
+  @media screen and (min-height: 900px){
+    height: 75.8vh;
+  }
+  @media screen and (min-height: 1000px){
+    height: 77.8vh;
+  }
+}
+
+.profile-content{
+  height: 90vh;
+  padding: 150px 20px;
+  @media screen and (min-height: 900px){
+    height: 75.8vh;
+  }
+  @media screen and (min-height: 1000px){
+    height: 77.8vh;
+  }
+}
+
+.login, .signup{
+  height: 74vh;
+  padding: 150px 20px;
+  @media screen and (min-height: 900px){
+    height: 75.8vh;
+  }
+  @media screen and (min-height: 1000px){
+    height: 77.8vh;
+  }
+}
+
+.material-symbols-outlined.done {
+scale: 1.5;
+transform: translateY(2px);
+}
