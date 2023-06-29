@@ -1,22 +1,22 @@
-import axios from "axios";
+
 import  { useState } from "react";
-import { useSignIn } from "react-auth-kit";
-import { useDispatch, useSelector } from "react-redux";
-import { Link, useNavigate } from "react-router-dom";
-import { RootState } from "../store/redux";
-import { isAuth } from "../store/authSlice";
+// import { useSignIn } from "react-auth-kit";
+// import { useDispatch, useSelector } from "react-redux";
+import { Link } from "react-router-dom";
+// import { RootState } from "../store/redux";
+
 import { useLogin } from "../hooks/useLogin";
 
 const Login = () => {
   const [email, setEmail] = useState<string>("");
   const [password, setPassword] = useState<string>("");
 
-  const navigate = useNavigate()
 
-  const isAuthUser = useSelector((store: RootState) =>store.auth.value )
-  const dispatch = useDispatch();
 
-  const signIn = useSignIn();
+  // const isAuthUser = useSelector((store: RootState) =>store.auth.value )
+  // const dispatch = useDispatch();
+
+  // const signIn = useSignIn();
 
   const { login, error, isLoading} = useLogin();
 

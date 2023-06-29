@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { isAuth } from "../store/authSlice";
+
 import { useNavigate } from "react-router";
 
 
