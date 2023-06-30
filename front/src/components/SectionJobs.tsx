@@ -14,7 +14,7 @@ const SectionJobs = () => {
   useEffect(() => {
     const getJobs = async () => {
       try {
-        const response = await axios.get("http://localhost:4000/api/jobs");
+        const response = await axios.get("https://jobspot-cc0j.onrender.com/api/jobs");
         setJobs(response.data);
       } catch (error) {
         console.log(error);

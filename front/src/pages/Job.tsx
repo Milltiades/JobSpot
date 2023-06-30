@@ -14,7 +14,7 @@ const Job = () => {
         const fetchEvent = async () => {
           try {
             const response = await axios.get(
-              `http://localhost:4000/api/jobs/${lastSegment}`
+              `https://jobspot-cc0j.onrender.com/api/jobs/${lastSegment}`
             );
       
             if (response.status === 200) {

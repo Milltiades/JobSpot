@@ -27,7 +27,7 @@ const Profile = () => {
   const handleSubmit = async () => {
     try {
       await axios
-        .post("http://localhost:4000/api/jobs", {
+        .post("https://jobspot-cc0j.onrender.com/api/jobs", {
           title,
           body,
           company,
