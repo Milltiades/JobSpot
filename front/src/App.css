@@ -67,23 +67,23 @@ li {
 .job-content{
   height: 74vh;
   padding: 150px 20px;
-  @media screen and (min-height: 900px){
+  /* @media screen and (min-height: 900px){
     height: 75.8vh;
   }
   @media screen and (min-height: 1000px){
     height: 77.8vh;
-  }
+  } */
 }
 
 .profile-content{
   height: 90vh;
   padding: 150px 20px;
-  @media screen and (min-height: 900px){
+  /* @media screen and (min-height: 900px){
     height: 75.8vh;
   }
   @media screen and (min-height: 1000px){
     height: 77.8vh;
-  }
+  } */
 }
 
 .login, .signup{
