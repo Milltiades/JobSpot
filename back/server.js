@@ -13,7 +13,7 @@ app.use(express.json());
 // Enable CORS middleware
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://jobspot2023.netlify.app",
   })
 );
 app.use((req, res, next) => {
