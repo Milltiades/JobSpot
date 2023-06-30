@@ -106,7 +106,7 @@ const Profile = () => {
           className=" w-full gap-4 flex flex-col md:w-1/3 "
         >
           <input
-            type="title"
+            type="text"
             placeholder="title"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
@@ -114,7 +114,7 @@ const Profile = () => {
             className=" p-2"
           />
           <input
-            type="body"
+            type="text"
             placeholder="body"
             value={body}
             onChange={(e) => setBody(e.target.value)}
@@ -122,7 +122,7 @@ const Profile = () => {
             className=" p-2"
           />
           <input
-            type="company"
+            type="text"
             placeholder="company"
             value={company}
             onChange={(e) => setCompany(e.target.value)}
@@ -179,7 +179,7 @@ const Profile = () => {
             <option value="Telavi">Telavi</option>
           </select>
           <input
-            type="compensation"
+            type="number"
             placeholder="compensation"
             value={compensation}
             onChange={(e) => setCompensation(e.target.value)}
