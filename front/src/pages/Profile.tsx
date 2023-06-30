@@ -72,7 +72,7 @@ const Profile = () => {
   }, []);
 
   return (
-    <div className=" p-5 w-full  profile-content relative top-20 lg:top-40 lg:px-40 bg-white  space-y-10 ">
+    <div className=" p-5 w-full  profile-content relative top-20 lg:top-24 lg:px-40 bg-white  space-y-10   md:h-auto">
       <h1 className=" text-slate-950 text-4xl font-bold ">{loggedIn}</h1>
 
       <div className="  w-full items-center justify-between flex flex-row ">

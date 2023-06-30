@@ -41,7 +41,7 @@ fetchEvent()
         return date.toLocaleDateString(undefined, options);
       };
   return (
-    <div className="p-5 w-full  job-content relative top-20 lg:top-40 lg:px-40">
+    <div className=" p-5 w-full  profile-content relative top-20 lg:top-24 lg:px-40 bg-white  space-y-10   md:h-auto">
   <div className=" bg-white w-full  gap-5 flex flex-col  lg:px-40 p-5 shadow-lg pb-10 lg:py-20">
     <h1 className=" text-3xl lg:text-5xl font-bold lg:pb-20 pb-10">{job.title}</h1>
     <p className="text-2xl ">{job.body}</p>

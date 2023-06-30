@@ -73,8 +73,11 @@ li {
   @media screen and (min-height: 1000px){
     height: 77.8vh;
   } */
-  @media screen and (min-height: 800){
-    height: auto;
+
+
+
+  @media (min-width: 1024px){
+top:0
   }
 }
 
@@ -87,9 +90,13 @@ li {
   @media screen and (min-height: 1000px){
     height: 77.8vh;
   } */
+  min-height: 80vh;
   @media screen and (min-height: 800){
     height: auto;
   }
+  @media (min-width: 1400px){
+    top:10rem
+      }
 }
 
 .login, .signup{
